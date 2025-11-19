@@ -1,0 +1,9 @@
+package com.gowri.lld.inheritanceAndPolymorphism;
+
+public class Animal {
+
+    public void makeSound() {
+        System.out.println("Animal Makes Sound");
+    }
+    
+}
