@@ -1,4 +1,4 @@
-package com.gowri.lld;
+package com.gowri.lld.encapsulation;
 
 public class Encapsulation {
 

@@ -1,4 +1,4 @@
-package com.gowri.lld.inheritanceAndPolymorphism;
+package com.gowri.lld.inheritance;
 
 public class Animal {
 

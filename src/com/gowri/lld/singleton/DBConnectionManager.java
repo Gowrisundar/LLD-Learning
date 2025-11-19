@@ -2,16 +2,16 @@ package com.gowri.lld.singleton;
 
 public class DBConnectionManager {
 
-    private static DBConnectionManager dbconnectionManager;
+    private static DBConnectionManager instance;
 
     private DBConnectionManager() {}
 
     public static DBConnectionManager getInstance() {
-        if(dbconnectionManager == null) {
-            dbconnectionManager = new DBConnectionManager();
+        if(instance == null) {
+            instance = new DBConnectionManager();
         } 
 
-        return dbconnectionManager;
+        return instance;
     }
     
 }
